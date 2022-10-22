@@ -1,52 +1,51 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
+samp.ban
+server.cfg
+server.cfg.sample
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.amx
+*.dll
+*.txt
+*.rec
+*.log
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# include
+include/*
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# pawno
+pawno/*
+
+# filterscripts
+filterscripts/*
+!filterscripts/objects.pwn
+
+# plugins
+plugins/*
+!plugins/TPoker.cpp
+!plugins/TPoker.so
+!plugins/TPoker.dll
+
+# gamemodes
+gamemodes/*
+!gamemodes/irresistible
+!gamemodes/irresistible/**
+gamemodes/irresistible/config/database.pwn
+!gamemodes/sf-cnr.pwn
+!gamemodes/COD8.pwn
+
+# scriptfiles
+scriptfiles/**/*
+!scriptfiles/COD/
+!scriptfiles/COD/**
+!scriptfiles/changelogs/
+!scriptfiles/changelogs/**
+
+# npc
+npcmodes/**/*
+!npcmodes/.gitkeep
+!npcmodes/secureguard.pwn
+!npcmodes/recordings/
+!npcmodes/recordings/*.rec
+npcmodes/recordings/mission_4.rec
+npcmodes/recordings/mission_3.rec
+npcmodes/recordings/mission_2.rec
+npcmodes/recordings/mission_1.rec
